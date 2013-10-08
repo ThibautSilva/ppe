@@ -1,0 +1,1 @@
+<h2>Accueil</h2><img src="images/maillot.jpg"><p>Voici le nouveau maillot de l'équipe de France présenté par Nike partenaire de L'EDF</p>

@@ -1,0 +1,185 @@
+body {
+    background-color:#efede5;
+    color:#6e6a6a;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+    font-size:14px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-image: url(../images/blue_bground.jpg);
+    background-repeat: repeat-x;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:24px;
+    color:#444141;
+    letter-spacing: -1px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:#333333;
+}
+
+
+a {
+    text-decoration:none;
+    color:#5b9019;
+}
+
+a:hover {
+    text-decoration:none;
+    color:#444141;
+}
+
+a img { border: none }
+
+
+
+
+#colonneCentre {
+    width:960px;
+    text-align:center;
+    margin:0 auto;
+}
+
+#header {
+    margin:0 0 40px 0;
+    padding:0;
+    width:960px;
+    height:83px;
+    background:url(../images/blue_top_bground.jpg) no-repeat top left;
+    float:left;
+}
+
+#logo {
+    margin:25px 0 0 10px;
+    padding:0;
+    width:199px;
+    height:34px;
+    background:url(../images/blue_logo.png) no-repeat top left;
+    float:left;
+}
+
+#contenu {
+    min-height: 400px;
+    width:960px;
+    clear:both;
+}
+
+
+#contenuVert {
+    width:960px;
+    text-align: center;
+    min-height: 150px;
+    margin-top: 50px;
+    clear: both;
+}
+
+
+
+#footer {
+    width:100%;
+    background-color:#efede5;
+    /* min-height: 250px; */
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    border-top: #c6c7c1;
+    border-top-width: 1px;
+    border-top-style:dotted;
+}
+
+.copyright {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    color:#959595;
+    text-align: center;
+}
+
+.copyright a {
+    text-decoration:none;
+    color:#52553d;
+}
+
+.copyright a:hover {
+    text-decoration:underline;
+    color:#959595;
+}
+
+
+/* Navigation menu  */
+#nav {margin-top:33px; padding:0; float:right;}
+#nav ul{
+    padding:0;
+    margin:0;
+    width:auto;
+    list-style: none;
+    height:30px;
+    position: relative;
+    float:right;
+}
+#nav li{
+    list-style:none;
+    float:left;
+    text-align:center;
+    padding:0;
+    font:bold 12px Century Gothic, sans-serif;
+    line-height:30px;
+}
+#nav .lavaLamp li a {
+    z-index: 10;
+    display: block;
+    float: left;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: auto 20px;
+    color:#FFFFFF;
+}
+
+#nav .lavaLamp li a:hover {
+    z-index: 10;
+    display: block;
+    float: left;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: auto 20px;
+    color:#FFFFFF;
+}
+
+#nav .lavaLamp li .active {
+    z-index: 10;
+    display: block;
+    float: left;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: auto 20px;
+    color:#FFFFFF;
+}
+
+
+#nav .lavaLamp li.back {
+    background: url(../images/lava.gif) no-repeat right -30px;
+    width: 9px; height: 30px;
+    z-index: 8;
+    position: absolute;
+}
+#nav .lavaLamp li.back .left {
+    background: url(../images/lava.gif) no-repeat top left;
+    height: 30px;
+    margin-right: 9px; /* 7px is the width of the rounded shape */
+}
+#nav a:link{color:#464833; text-decoration:none;}
+
+#nav a:hover{color:#FFFFFF; text-decoration:none;}
+
+#nav a:active{color:#FFFFFF; text-decoration:none;}
